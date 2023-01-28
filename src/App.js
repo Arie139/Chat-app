@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Components/Navbar';
+import Chat from './Components/Chat';
 import { auth } from './firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 
@@ -17,6 +18,7 @@ function App() {
         {/* Navbar */}
         <Navbar />
         {/* Chat components */}
+        <Chat />
       </section>
     </div>
   );
